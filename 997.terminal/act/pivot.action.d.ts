@@ -1,0 +1,13 @@
+export declare const INIT_PIVOT = "[Pivot action] Init Pivot";
+export declare const UPDATE_PIVOT = "[Pivot action] Update Pivot";
+export declare const OPEN_PIVOT = "[Open action] Open Pivot";
+export declare const RUN_PIVOT = "[Run action] Run Pivot";
+export declare const EDIT_PIVOT = "[Edit action] Edit Pivot";
+export declare const PATCH_PIVOT = "[Patch action] Patch Pivot";
+export declare const COUNT_PIVOT = "[Patch action] Count Pivot";
+export declare const LIST_PIVOT = "[Patch action] List Pivot";
+export declare const CREATE_PIVOT = "[Patch action] Create Pivot";
+export declare const CONTAINS_PIVOT = "[Patch action] Contains Pivot";
+export declare const BUNDLE_PIVOT = "[Patch action] Bundle Pivot";
+export declare const REPLACE_PIVOT = "[Patch action] Replace Pivot";
+export declare const SHIP_PIVOT = "[Patch action] Ship Pivot";

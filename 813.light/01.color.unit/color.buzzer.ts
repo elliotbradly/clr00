@@ -1,0 +1,12 @@
+export { initColor  } from "./buz/color.buzz";
+export { updateColor  } from "./buz/color.buzz";
+export { openColor  } from "./buz/color.buzz";
+export { readColor  } from "./buz/color.buzz";
+export { writeColor  } from "./buz/color.buzz";
+export { removeColor  } from "./buz/color.buzz";
+export { deleteColor  } from "./buz/color.buzz";
+export { createColor  } from "./buz/color.buzz";
+export { mixColor  } from "./buz/color.buzz";
+export { fateColor  } from "./buz/color.buzz";
+export { swatchColor  } from "./buz/color.buzz";
+export { paletteColor  } from "./buz/color.buzz";

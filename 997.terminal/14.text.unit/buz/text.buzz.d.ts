@@ -1,0 +1,10 @@
+export declare const initText: (cpy: TextModel, bal: TextBit, ste: State) => TextModel;
+export declare const updateText: (cpy: TextModel, bal: TextBit, ste: State) => Promise<any>;
+export declare const createText: (cpy: TextModel, bal: TextBit, ste: State) => Promise<any>;
+export declare const writeText: (cpy: TextModel, bal: TextBit, ste: State) => Promise<TextModel>;
+export declare const readText: (cpy: TextModel, bal: TextBit, ste: State) => Promise<TextModel>;
+export declare const removeText: (cpy: TextModel, bal: TextBit, ste: State) => Promise<TextModel>;
+export declare const deleteText: (cpy: TextModel, bal: TextBit, ste: State) => TextModel;
+import { TextModel } from "../text.model";
+import TextBit from "../fce/text.bit";
+import State from "../../99.core/state";

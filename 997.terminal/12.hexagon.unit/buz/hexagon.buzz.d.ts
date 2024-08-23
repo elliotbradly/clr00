@@ -1,0 +1,10 @@
+export declare const initHexagon: (cpy: HexagonModel, bal: HexagonBit, ste: State) => HexagonModel;
+export declare const updateHexagon: (cpy: HexagonModel, bal: HexagonBit, ste: State) => Promise<HexagonModel>;
+export declare const createHexagon: (cpy: HexagonModel, bal: HexagonBit, ste: State) => HexagonModel;
+export declare const readHexagon: (cpy: HexagonModel, bal: HexagonBit, ste: State) => HexagonModel;
+export declare const writeHexagon: (cpy: HexagonModel, bal: HexagonBit, ste: State) => HexagonModel;
+export declare const removeHexagon: (cpy: HexagonModel, bal: HexagonBit, ste: State) => HexagonModel;
+export declare const deleteHexagon: (cpy: HexagonModel, bal: HexagonBit, ste: State) => HexagonModel;
+import { HexagonModel } from "../hexagon.model";
+import HexagonBit from "../fce/hexagon.bit";
+import State from "../../99.core/state";

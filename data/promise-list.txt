@@ -1,0 +1,53 @@
+bit = await ste.bus(ActDsk.INDEX_DISK, { src: '../../' })
+
+   lst = bit.dskBit.lst;
+
+   var dex = lst.length - 1;
+
+   var output = []
+
+   var nextDir = async () => {
+
+      if (dex < 0) {
+
+         output
+         
+         src = '../998.work/work/901.store/';
+         bit = await ste.bus(ActPvt.REPLACE_PIVOT, { src, lst:output })
+         lstMsg =  lstMsg.concat(bit.pvtBit.lst)
+   
+         
+         return cpy;
+      }
+
+      var now = lst[dex];
+      var check = '../../' + now;
+
+      if (now == 'artefact') {
+         dex -= 1
+         await nextDir()
+         return
+      }
+
+
+      bit = await ste.bus(ActDsk.TYPE_DISK, { src: '../../' + now })
+
+      if (bit.dskBit.src != 'directory') {
+         dex -= 1
+         await nextDir()
+         return
+      }
+
+      bit = await ste.bus(ActDsk.INDEX_DISK, { src: '../../' + now })
+
+      bit.dskBit.lst.forEach((a) => {
+
+         if (a != '901.store') return
+         output.push('../../' + now)
+      })
+
+      dex -= 1
+      await nextDir()
+   }
+
+   await nextDir()

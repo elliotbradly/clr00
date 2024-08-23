@@ -1,0 +1,12 @@
+export declare const INIT_TERMINAL = "[Terminal action] Init Terminal";
+export declare const OPEN_TERMINAL = "[Terminal action] Open Terminal";
+export declare const FOCUS_TERMINAL = "[Terminal action] Focus Terminal";
+export declare const WRITE_TERMINAL = "[Terminal action] Write Terminal";
+export declare const UPDATE_TERMINAL = "[Terminal action] Update Terminal";
+export declare const CLEAR_TERMINAL = "[Terminal action] Clear Terminal";
+export declare const INPUT_TERMINAL = "[Terminal action] Input Terminal";
+export declare const TABLE_TERMINAL = "[Terminal action] Table Terminal";
+export declare const CLOSE_TERMINAL = "[Terminal action] Close Terminal";
+export declare const ROOT_TERMINAL = "[Terminal action] Root Terminal";
+export declare const CONTENT_TERMINAL = "[Terminal action] Content Terminal";
+export declare const ADD_PORT = "[Terminal action] Add Port";
